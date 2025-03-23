@@ -36,3 +36,17 @@ document.getElementById("character-bar").addEventListener("click", (event) => {
             .catch(error => console.error("Error fetching character details:", error));
     }
 });
+
+const voteForm = document.getElementById("votes-form");
+
+voteForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const votesInput = document.getElementById("votes");
+    const newVotes = parseInt(votesInput.value);
+    
+    if (!isNaN(newVotes)) {
+        const totalVotes = parseInt(characterVotes.textContent) + newVotes;
+        characterVotes.textContent = totalVotes;
+        votesInput.value = "";
+    }
+});
