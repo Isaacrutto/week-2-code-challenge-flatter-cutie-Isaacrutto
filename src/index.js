@@ -50,3 +50,8 @@ voteForm.addEventListener("submit", (event) => {
         votesInput.value = "";
     }
 });
+const resetButton = document.getElementById("reset-btn");
+
+resetButton.addEventListener("click", () => {
+    characterVotes.textContent = "0";
+});
