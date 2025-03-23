@@ -55,3 +55,36 @@ const resetButton = document.getElementById("reset-btn");
 resetButton.addEventListener("click", () => {
     characterVotes.textContent = "0";
 });
+const characterForm = document.getElementById("character-form");
+
+characterForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    
+    const nameInput = document.getElementById("name").value;
+    const imageInput = document.getElementById("image").value;
+    
+    if (nameInput && imageInput) {
+        const newCharacter = {
+            id: Date.now(),
+            name: nameInput,
+            image: imageInput,
+            votes: 0
+        };
+
+        // Add to character bar
+        const span = document.createElement("span");
+        span.textContent = newCharacter.name;
+        span.classList.add("character");
+        span.dataset.id = newCharacter.id;
+        document.getElementById("character-bar").appendChild(span);
+
+        // Show details immediately
+        characterName.textContent = newCharacter.name;
+        characterImage.src = newCharacter.image;
+        characterVotes.textContent = newCharacter.votes;
+        characterImage.alt = newCharacter.name;
+
+        // Reset form
+        characterForm.reset();
+    }
+});
