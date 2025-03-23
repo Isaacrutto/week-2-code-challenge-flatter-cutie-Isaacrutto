@@ -15,3 +15,24 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Error fetching characters:", error));
 });
+
+const detailedInfo = document.getElementById("detailed-info");
+const characterName = detailedInfo.querySelector("h2");
+const characterImage = detailedInfo.querySelector("img");
+const characterVotes = detailedInfo.querySelector("#vote-count");
+
+document.getElementById("character-bar").addEventListener("click", (event) => {
+    if (event.target.classList.contains("character")) {
+        const characterId = event.target.dataset.id;
+        
+        fetch(`http://localhost:3000/characters/${characterId}`)
+            .then(response => response.json())
+            .then(character => {
+                characterName.textContent = character.name;
+                characterImage.src = character.image;
+                characterVotes.textContent = character.votes;
+                characterImage.alt = character.name;
+            })
+            .catch(error => console.error("Error fetching character details:", error));
+    }
+});
