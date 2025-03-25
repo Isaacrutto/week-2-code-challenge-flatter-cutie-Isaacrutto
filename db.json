@@ -3,13 +3,13 @@
     {
       "id": "1",
       "name": "Mr. Cute",
-      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
-      "votes": 2
+      "image": "https://media.giphy.com/media/SgaZMaG4VPewg/giphy.gif?cid=790b76110umishxr3xqcsbtk4pflloxbzswezr8gct55vvfm&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+      "votes": 3
     },
     {
       "id": "2",
       "name": "Mx. Monkey",
-      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
+      "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHZtemUycnQybDN2M3psNjd0M2phdXN6cHVlOGF5NjR1b29yNWtqbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/R4J5csAaMOp5Ya0SZe/giphy.gif",
       "votes": 0
     },
     {
@@ -21,14 +21,26 @@
     {
       "id": "4",
       "name": "Dr. Lion",
-      "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
+      "image": "https://media.giphy.com/media/2Hh0auoXgPYRO/giphy.gif?cid=790b76116p407m4yo3qopsn9qk1es2m57eg02q1t4yew0jud&ep=v1_gifs_search&rid=giphy.gif&ct=g",
       "votes": 0
     },
     {
       "id": "5",
       "name": "Mme. Panda",
-      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
+      "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDljYWZyOWl6Mzd3ZnQwaHBsc2F6aXZiOWh3M2FsazQybGRzMzF3bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fhrbm8ENcsz9yuTKz6/giphy.gif",
       "votes": 0
+    },
+    {
+      "id": "6",
+      "name": "simpson",
+      "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHoxcml5bnF0czFpNXpvdjlqaHA5c2JyanFkbnd5ejZhYXU2Y3VmeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SyemapFxj7TiM/giphy.gif",
+      "votes": 0
+    },
+    {
+      "id": "8530",
+      "name": "duck",
+      "image": "https://media.giphy.com/media/xT9DPrT8ZCNoRk88x2/giphy.gif?cid=790b7611sundc8i218vxfm9ppbodfgnfidatv8nb2krcqxuw&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+      "votes": 100
     }
   ]
 }
